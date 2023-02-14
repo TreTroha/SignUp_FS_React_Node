@@ -43,8 +43,8 @@ const App = () => {
 	    }));
     }
 
-    function onSubmit(e){
-        e.preventDefault()
+    function onSubmit(event){
+        event.preventDefault()
 
         const registered = {
             fullName: values.fullName,
