@@ -2,7 +2,6 @@ import React, { Component, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import axios from 'axios'
 
-
 const App = () => {
     const [values, setValues] = useState({
         fullName:'',
