@@ -12,7 +12,7 @@ const App = () => {
 
     function handleFullNameChange(event) {
         event.persist();
-	    setValues((values) => ({
+	      setValues((values) => ({
             ...values,
             fullName: event.target.value,
 	    }));
