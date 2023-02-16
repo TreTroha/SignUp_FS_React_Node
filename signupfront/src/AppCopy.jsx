@@ -20,7 +20,7 @@ const App = () => {
 
     function handleUsernameChange(event) {
         event.persist();
-	    setValues((values) => ({
+	      setValues((values) => ({
             ...values,
             username: event.target.value,
 	    }));
