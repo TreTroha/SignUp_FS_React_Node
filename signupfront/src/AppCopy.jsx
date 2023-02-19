@@ -28,7 +28,7 @@ const App = () => {
 
     function handleEmailChange(event) {
         event.persist();
-	    setValues((values) => ({
+	      setValues((values) => ({
             ...values,
             email: event.target.value,
 	    }));
